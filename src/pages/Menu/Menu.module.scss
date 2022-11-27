@@ -55,4 +55,12 @@
     font-size: 3rem;
     margin-bottom: 30px;
   }
+  &__filters {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;
+  }
 }
