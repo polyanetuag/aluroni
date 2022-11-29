@@ -13,6 +13,7 @@ export default function Search({search, setSearch}: SearchProps) {
         <input
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        placeholder="Buscar"
         />
         <CgSearch size={20} color="#4C4D5E" />
    </div>
