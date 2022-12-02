@@ -8,6 +8,7 @@ import Ordination from './Ordination';
 export default function Menu() {
 const [search, setSearch] = useState("");
 const [filter, setFilter] = useState<number | null>(null);
+const [ordination, setOrdination] = useState('');
 
   return (
     <main>
@@ -22,7 +23,7 @@ const [filter, setFilter] = useState<number | null>(null);
           <Search search={search} setSearch={setSearch} />
           <div className={styles.menu__filters}>
             <Filters filter={filter} setFilter={setFilter} />
-            <Ordination />
+            <Ordination ordination={ordination} setOrdination={setOrdination} />
           </div>
         </section>
     </main>
