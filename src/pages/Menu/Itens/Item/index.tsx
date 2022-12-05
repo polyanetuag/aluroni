@@ -1,4 +1,3 @@
-import logo from "assets/logo.svg";
 import styles from "./Item.module.scss";
 import menu from "../itens.json";
 import classNames from "classnames";
@@ -6,11 +5,11 @@ import classNames from "classnames";
 type ItemProps = typeof menu[0];
 
 export default function Item(props: ItemProps) {
-  const { title, description, category,size,serving, price } = props;
+  const { title, description, category,size,serving, price, photo } = props;
   return (
     <div className={styles.item}>
       <div className={styles.item__imagem}>
-        <img src={logo} alt={title} />
+        <img src={photo} alt={title} />
       </div>
 
       <div className={styles.item__descricao}>
