@@ -26,7 +26,7 @@ const [ordination, setOrdination] = useState('');
             <Filters filter={filter} setFilter={setFilter} />
             <Ordination ordination={ordination} setOrdination={setOrdination} />
           </div>
-          <Itens />
+          <Itens search={search} filter={filter} ordination={ordination} />
         </section>
     </main>
   )
