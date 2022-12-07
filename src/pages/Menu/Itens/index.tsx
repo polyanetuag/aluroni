@@ -11,7 +11,7 @@ interface ItensProps {
 
 export default function Itens(props: ItensProps) {
   const [list, setList] = useState(menu);
-  const { search, filter } = props;
+  const { search, filter, ordination } = props;
 
   function testSearch(title: string) {
     const regex = new RegExp(search, "i");
@@ -23,10 +23,19 @@ export default function Itens(props: ItensProps) {
     return true;
   }
 
+  function order(newList: typeof menu) {
+    switch (ordination) {
+      case 'porcao': return newList.sort((a, b) => a.size > b.size ? 1 : -1);
+      case 'qtd_pessoas': return newList.sort((a, b) => a.serving > b.serving ? 1 : -1);
+      case 'preco': return newList.sort((a, b) => a.price > b.price ? 1 : -1);
+      default: return newList;
+  }
+}
+
   useEffect(() => {
     const newList = menu.filter(item=> testSearch(item.title) && testFilter(item.category.id))
-    setList(newList);
-  }, [search, filter]);
+    setList(order(newList));
+  }, [search, filter, ordination]);
 
   return (
     <div className={styles.itens}>
