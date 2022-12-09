@@ -36,10 +36,10 @@ $ git clone https://github.com/polyanetuag/aluroni.git
 $ cd aluroni
 
 # Instalar as dependências
-$ yarn 
+$ npm install 
 
 # Iniciar o servidor
-$ yarn dev
+$ npm start
 ```
 
 ## 📝 Licença
