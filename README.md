@@ -25,7 +25,7 @@ O projeto foi desenvolvido com o objetivo de fazer um cardápio online, com tags
 - ReactJS
 - TypeScript
 - Sass
-
+- Css Modules
 
 ## ⏱️ Como executar
 
