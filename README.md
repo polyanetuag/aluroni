@@ -1,5 +1,6 @@
-<div align="center">
-    <h2>Aluroni - Cardápio online</h2>
+<div align="center" justify-content="space-between">
+  <img width= '80' src="../aluroni/public/favicon.svg" /> 
+  <h1>Aluroni</h1>
 </div>
 
 <h3 align="center">  
