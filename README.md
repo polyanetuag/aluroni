@@ -13,7 +13,7 @@
 </h3>
 
 <div align="center">
-    <img width= '800' src="../aluroni/public/assets/pratos/gif.gif" /> 
+    <img width= '800' src="./public/assets/pratos/gif.gif" /> 
 </div>
 
 ## 📚 Sobre
