@@ -21,7 +21,7 @@
 O projeto foi desenvolvido com o objetivo de fazer um cardápio online, com tags para categorizar os pratos e um ordenador de pratos por preço, porção e quantas pessoas servem.
 
 
-## 🚀 Tecnologias utilizadas:
+## 🚀 Tecnologias utilizadas
 
 - ReactJS
 - TypeScript
