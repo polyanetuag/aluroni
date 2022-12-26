@@ -19,7 +19,7 @@
 ## 📚 Sobre
 
 O projeto foi desenvolvido com o objetivo de fazer um cardápio online, com tags para categorizar os pratos.
-Possui também um ordenador de pratos por preço, porção e quantas pessoas servem.
+Possui um ordenador de pratos por preço, porção e quantas pessoas servem.
 
 
 ## 🚀 Tecnologias utilizadas
