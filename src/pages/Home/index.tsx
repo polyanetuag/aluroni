@@ -1,4 +1,3 @@
-import MenuBoard from "components/MenuBoard";
 import menu from "data/menu.json";
 import styles from "./Home.module.scss";
 
@@ -10,7 +9,6 @@ export default function Home() {
 
   return (
     <section>
-        <MenuBoard />
         <h3 className={styles.titulo}>
             Recomendações da cozinha
         </h3>

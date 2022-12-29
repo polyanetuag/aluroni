@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Filters from './Filters';
 import Ordination from './Ordination';
 import Itens from './Itens';
-import MenuBoard from 'components/MenuBoard';
 
 export default function Menu() {
 const [search, setSearch] = useState("");
@@ -13,7 +12,6 @@ const [ordination, setOrdination] = useState('');
 
   return (
     <main>
-      <MenuBoard />
         <header className={styles.header}>
           <div className={styles.header__text}> A casa do código e da massa</div>
         </header>
