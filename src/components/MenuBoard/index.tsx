@@ -1,4 +1,5 @@
 import { ReactComponent as Logo } from 'assets/logo.svg';
+import { Link } from 'react-router-dom';
 import styles from './MenuBoard.module.scss';
 
 export default function MenuBoard() {
@@ -19,7 +20,7 @@ export default function MenuBoard() {
           <ul className={styles.menu__list}>
             {routes.map((route, index) => (
               <li key={index} className={styles.menu__link}>
-                <a href={route.to}>{route.label}</a>
+                <Link to={route.to}>{route.label}</Link>
               </li>
             ))}
           </ul>
