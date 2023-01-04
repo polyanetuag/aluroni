@@ -1,5 +1,6 @@
 import DefaultPage from "components/DefaultPage";
 import MenuBoard from "components/MenuBoard";
+import About from "pages/About";
 import Menu from "pages/Menu";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -13,6 +14,7 @@ export default function AppRouter() {
           <Route path='/' element={<DefaultPage/>}>
             <Route index element={<Home />} />
             <Route path='cardapio' element={<Menu />}/>
+            <Route path='sobre' element={<About />}/>
           </Route>
       </Routes>
       </Router>
