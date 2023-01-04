@@ -1,4 +1,5 @@
 declare module '*.scss'
+declare module "*.png";
 
 declare module '*.svg' {
     import React = require('react');
