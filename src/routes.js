@@ -1,4 +1,5 @@
 import DefaultPage from "components/DefaultPage";
+import { Footer } from "components/Footer";
 import MenuBoard from "components/MenuBoard";
 import About from "pages/About";
 import Menu from "pages/Menu";
@@ -17,6 +18,7 @@ export default function AppRouter() {
             <Route path='sobre' element={<About />}/>
           </Route>
       </Routes>
+      <Footer />
       </Router>
     </main>
   );
