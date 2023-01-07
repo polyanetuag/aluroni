@@ -3,6 +3,7 @@ import { Footer } from "components/Footer";
 import MenuBoard from "components/MenuBoard";
 import About from "pages/About";
 import Menu from "pages/Menu";
+import NotFound from "pages/NotFound";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
@@ -17,6 +18,7 @@ export default function AppRouter() {
             <Route path='cardapio' element={<Menu />}/>
             <Route path='sobre' element={<About />}/>
           </Route>
+            <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer />
       </Router>
