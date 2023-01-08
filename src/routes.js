@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 
 export default function AppRouter() {
   return (
-    <main>
+    <main className='container'>
       <Router>
         <MenuBoard />
         <Routes>
