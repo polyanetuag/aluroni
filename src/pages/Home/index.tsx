@@ -14,7 +14,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   function redirectDetailsPlate(prato: typeof menu[0]) {
-    navigate(`/prato/${prato.id}`, { state: { ...prato } });
+    navigate(`/prato/${prato.id}`, { state: { prato } });
   }
 
   return (
