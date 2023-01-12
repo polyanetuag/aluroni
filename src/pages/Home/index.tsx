@@ -4,6 +4,7 @@ import stylesTheme from "styles/Theme.module.scss";
 import nossaCasa from "assets/nossa_casa.png";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Plate } from "types/Plate";
 
 export default function Home() {
   let recommendedDishes = [...menu];
@@ -13,7 +14,7 @@ export default function Home() {
 
   const navigate = useNavigate();
 
-  function redirectDetailsPlate(prato: typeof menu[0]) {
+  function redirectDetailsPlate(prato: Plate) {
     navigate(`/prato/${prato.id}`, { state: { prato } });
   }
 
