@@ -1,7 +1,7 @@
 import styles from "./Plate.module.scss";
 import { useParams, useNavigate } from "react-router-dom";
-import classNames from "classnames";
 import menu from "data/menu.json";
+import TagsPlate from "components/TagsPlate";
 
 export default function Plate() {
   const { id } = useParams();
@@ -20,24 +20,7 @@ export default function Plate() {
         </div>
         <div className={styles.conteudo}>
           <p className={styles.conteudo__descricao}>{plate.description}</p>
-          <div className={styles.tags}>
-            <div
-              className={classNames({
-                [styles.tags__tipo]: true,
-                [styles[`tags__tipo__${plate.category.label.toLowerCase()}`]]:
-                  true,
-              })}
-            >
-              {plate.category.label}
-            </div>
-            <div className={styles.tags__porcao}>{plate.size}g</div>
-            <div className={styles.qtdpessoas}>
-              Serve {plate.serving} pessoa{plate.serving > 1 ? "s" : ""}
-            </div>
-            <div className={styles.tags__valor}>
-              R$ {plate.price.toFixed(2)}
-            </div>
-          </div>
+          <TagsPlate {...plate} />
         </div>
       </section>
     </>
