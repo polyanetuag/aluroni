@@ -18,8 +18,8 @@
 
 ## 📚 Sobre
 
-O projeto em questão é um cardápio online, em que possui tags com categorização dos pratos.
-Possui um ordenador de pratos por preço, porção e quantidade de pessoas que servem.
+O projeto em questão é um cardápio online.
+Possui um ordenador de pratos por preço, porção e quantidade de pessoas que servem além de tags com categorização dos pratos.
 
 Foi desenvolvido com o objetivo de praticar o uso de ReactJS, TypeScript, NestedRoutes e Sass.
 
