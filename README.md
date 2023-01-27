@@ -18,9 +18,9 @@
 
 ## 📚 Sobre
 
-O projeto em questão é um cardápio online.
+O projeto em questão é um cardápio online. Possui uma página com os principais pratos, o cardápio em questão e informações sobre o restaurante.
 
-Possui um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
+Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
 
 Foi desenvolvido com o objetivo de praticar o uso de ReactJS, TypeScript, NestedRoutes e Sass.
 
