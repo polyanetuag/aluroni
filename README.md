@@ -18,7 +18,7 @@
 
 ## 📚 Sobre
 
-O projeto em questão é um cardápio online. Nele há três páginas: uma que contém os principais pratos, outra com o cardápio em questão e outra com as informações do restaurante.
+O projeto em questão é um cardápio online. Nele há três páginas: uma página principal, que contém os principais pratos, outra com o cardápio em questão e outra com as informações do restaurante.
 
 Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
 
