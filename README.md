@@ -18,8 +18,9 @@
 
 ## 📚 Sobre
 
-O projeto em questão é um cardápio online. 
-Nele há três páginas: 
+O projeto em questão é um cardápio online, contendo informações sobre um restaurante fictício.
+
+Nele, há três páginas: 
 - página principal, que contém os principais pratos,
 - listagem dos pratos, que contém todos os pratos e informações sobre eles,
 - informações do restaurante.
