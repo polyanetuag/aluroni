@@ -21,9 +21,9 @@
 O projeto em questão é um cardápio online, contendo informações sobre um restaurante fictício.
 
 Nele, há três páginas: 
-- página principal, que contém os principais pratos,
-- listagem dos pratos, que contém todos os pratos e informações sobre eles,
-- informações do restaurante.
+- **página principal**, que contém os principais pratos,
+- **listagem dos pratos**, que contém todos os pratos e informações sobre eles e 
+- **página sobre**, com as informações do restaurante.
   
 Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
 
