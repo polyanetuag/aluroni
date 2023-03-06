@@ -1,6 +1,7 @@
 <div align="center" justify-content="space-between">
   <img width= '80' src="./public/favicon.svg" /> 
   <h1>Aluroni</h1>
+  <h2>Site gastronômico</h2>
 </div>
 
 <h3 align="center">  
