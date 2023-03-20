@@ -28,7 +28,7 @@ Nele, há três páginas:
   
 Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
 
-Foi desenvolvido com o objetivo de praticar o uso de ReactJS, TypeScript, NestedRoutes e Sass.
+Foi desenvolvido com o objetivo de práticas em ReactJS, TypeScript, NestedRoutes e Sass.
 
 
 ## 🚀 Tecnologias utilizadas
