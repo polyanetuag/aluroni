@@ -19,7 +19,7 @@
 
 ## 📚 Sobre
 
-O projeto em questão é um cardápio online, contendo informações sobre um restaurante fictício.
+O projeto consiste em um cardápio online, contendo informações sobre um restaurante fictício.
 
 Nele, há três páginas: 
 - **página principal**, que contém os principais pratos,
