@@ -24,7 +24,7 @@ O projeto consiste em um cardápio online, contendo informações sobre um resta
 A aplicação possui três páginas: 
 - **página principal**, que contém os principais pratos,
 - **listagem dos pratos**, que contém todos os pratos e informações sobre eles e 
-- **página sobre**, com as informações do restaurante.
+- **página Sobre**, com as informações do restaurante.
   
 Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
 
