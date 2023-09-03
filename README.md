@@ -1,6 +1,6 @@
 <div align="center" justify-content="space-between">
   <img width= '80' src="./public/favicon.svg" /> 
-  <h1>Aluroni - 
+  <h1>Aluroni <br/>
     Menu gastronômico </h1>
 </div>
 
