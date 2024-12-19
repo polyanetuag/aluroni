@@ -32,7 +32,7 @@ Possui também um ordenador de pratos por preço, porção e quantidade de pesso
 
 ## 🚀 Tecnologias utilizadas
 
-- ReactJS
+- [ReactJS](https://react.dev/)
 - TypeScript
 - Sass
 - Css Modules
