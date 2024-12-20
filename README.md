@@ -34,7 +34,7 @@ Possui também um ordenador de pratos por preço, porção e quantidade de pesso
 
 - [ReactJS](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- Sass
+- [Sass](https://sass-lang.com/)
 - Css Modules
 
 ## ⏱️ Como executar
