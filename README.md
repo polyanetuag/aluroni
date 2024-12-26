@@ -25,7 +25,7 @@ Foi desenvolvido com o objetivo de praticar as tecnologias ReactJS, TypeScript, 
 
 A aplicação possui três páginas: 
 - **Home**, que contém os principais pratos do restaurante,
-- **Lista dos pratos**, que contém todos os pratos e informações sobre eles e 
+- **Lista dos pratos**, que contém a lista de todos os pratos e informações sobre eles e 
 - **Sobre**, com as informações do restaurante.
   
 Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
