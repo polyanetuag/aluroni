@@ -28,7 +28,7 @@ A aplicação possui três páginas:
 - **Lista dos pratos**, que contém a lista de todos os pratos e informações sobre eles e 
 - **Sobre**, com as informações do restaurante.
   
-Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que servem, além de tags que categorizam os pratos.
+Possui também um ordenador de pratos por preço, porção e quantidade de pessoas que podem servir, além de tags que categorizam os pratos.
 
 ## 🚀 Tecnologias utilizadas
 
