@@ -19,7 +19,7 @@
 
 ## 📚 Sobre
 
-O projeto consiste em um cardápio online de um restaurante fictício. 
+O projeto consiste em um cardápio de pratos online de um restaurante fictício. 
 
 Foi desenvolvido com o objetivo de praticar as tecnologias ReactJS, TypeScript, NestedRoutes e Sass.
 
